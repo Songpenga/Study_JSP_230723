@@ -28,5 +28,7 @@
 	
 	out.print("int형을 floar형으로 강제 형 변환 : " + f + "<BR>");
 	%>
+	
+
 </body>
 </html>
