@@ -10,7 +10,7 @@
 
 <h2>1. 로그인 폼</h2>
 <%
-String loginErr = request.getParameter("loginErr");
+String loginErr = request.getParameter("loginErr"); // 로그인 실패여부를 알려주는 매개변수
 if(loginErr != null ) out.print("로그인 실패");
 
 %>
